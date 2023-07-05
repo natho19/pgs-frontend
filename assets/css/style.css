@@ -2585,7 +2585,8 @@ p {
         text-align: center;
     }
 
-    .footer-eleven .footer-widget .select-dropdown {
+    .footer-eleven .footer-widget .select-dropdown,
+    .footer-widget .logo {
         margin: 0 auto;
     }
 }
