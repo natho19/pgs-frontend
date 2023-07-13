@@ -59,7 +59,7 @@
         distance: '50px',
         duration: 1200,
         mobile: false,
-        viewFactor: 1.0,
+        viewFactor: 0.5,
     });
 
     // Hero
@@ -103,6 +103,7 @@
         origin: 'bottom',
         delay: 1000,
         interval: 300,
+        viewFactor: 0.2,
     });
 
     // Clients
