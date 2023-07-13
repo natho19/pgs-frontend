@@ -57,7 +57,7 @@
     window.sr = ScrollReveal({
         reset: false,
         distance: '50px',
-        duration: 1500,
+        duration: 1200,
         mobile: false,
         viewFactor: 1.0,
     });
