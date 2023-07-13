@@ -53,5 +53,80 @@
     navbarTogglerNine.addEventListener('click', function () {
         navbarTogglerNine.classList.toggle('active');
     });
+
+    window.sr = ScrollReveal({
+        reset: false,
+        distance: '50px',
+        duration: 1500,
+        mobile: false,
+        viewFactor: 1.0,
+    });
+
+    // Hero
+    sr.reveal('.header-content h1', {
+        origin: 'top',
+    });
+    sr.reveal('.header-content p', {
+        origin: 'bottom',
+        delay: 500,
+    });
+    sr.reveal('.header-image', {
+        origin: 'right',
+        delay: 1000,
+    });
+
+    // About
+    sr.reveal('.about-five-content h2', {
+        origin: 'top',
+        delay: 1500,
+    });
+    sr.reveal('.about-five-tab', {
+        origin: 'bottom',
+        delay: 500,
+        viewFactor: 0.0,
+    });
+    sr.reveal('.about-image-five', {
+        origin: 'left',
+        delay: 1000,
+        viewFactor: 0.0,
+    });
+
+    // Services
+    sr.reveal('#services .content h2', {
+        origin: 'top',
+    });
+    sr.reveal('#services .content p', {
+        origin: 'bottom',
+        delay: 500,
+    });
+    sr.reveal('.single-services', {
+        origin: 'bottom',
+        delay: 1000,
+        interval: 300,
+    });
+
+    // Clients
+    sr.reveal('#clients .content h2', {
+        origin: 'top',
+    });
+    sr.reveal('#clients .content p', {
+        origin: 'bottom',
+        delay: 500,
+    });
+    sr.reveal('.single-image', {
+        origin: 'bottom',
+        delay: 1000,
+        interval: 300,
+    });
+
+    // Contact
+    sr.reveal('#contact .col-xl-4', {
+        origin: 'top',
+    });
+    sr.reveal('#contact .col-xl-8', {
+        origin: 'bottom',
+        delay: 500,
+    });
+
     ('use strict');
 })();
