@@ -2757,6 +2757,11 @@ p {
     position: relative;
     box-sizing: border-box;
 }
+
+.nav-item .select-dropdown {
+    margin: 5px 0 10px;
+}
+
 .select-dropdown {
     position: relative;
     background-color: #e6e6e6;
